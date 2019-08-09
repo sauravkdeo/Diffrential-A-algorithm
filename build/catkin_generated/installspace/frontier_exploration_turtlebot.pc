@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: frontier_exploration_turtlebot
+Description: Description of frontier_exploration_turtlebot
+Version: 1.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 
