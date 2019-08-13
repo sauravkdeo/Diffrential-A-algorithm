@@ -1,12 +1,26 @@
 ﻿
 
-# Diffrential A* algorithm : Project 3
+# Diffrential A* algorithm 
 ---
 
 ## Overview
 
 C++ project to explore node using A* algorithm with diffrential constraint
 
+
+## Results
+
+- Fig showing the map exploration using `A*` algorithm.
+
+<p align="center">
+<img src="results/path_exploration.gif" width="400" height="270" border="10">
+</p>
+
+- Fig showing the gazebo simulation for the explored map
+
+<p align="center">
+<img src="results/gazebo_path.gif" width="400" height="270" border="10">
+</p>
 
 ## Coordianate Axis
 
