@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(frontier_exploration_turtlebot)
+project(diffrential_turtlebot)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 add_definitions(-std=c++11)
@@ -26,7 +26,7 @@ include_directories(
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 
-add_executable(frontierExplorer 
+add_executable(diffTurtle 
 	src/main.cpp
     src/coord.cpp
     src/map.cpp
@@ -35,10 +35,10 @@ add_executable(frontierExplorer
 	src/PathPlanning.cpp
 	)
 	
-target_link_libraries(frontierExplorer
+target_link_libraries(diffTurtle
 	${catkin_LIBRARIES}
 )
-target_link_libraries(frontierExplorer ${OpenCV_LIBRARIES})
+target_link_libraries(diffTurtle ${OpenCV_LIBRARIES})
 
 
 

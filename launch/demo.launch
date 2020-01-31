@@ -7,7 +7,7 @@
   <arg name="z_pos" default="0.0"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find frontier_exploration_turtlebot)/world/rrl_map"/>
+    <arg name="world_name" value="$(find diffrential_turtlebot)/world/rrl_map"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
@@ -28,9 +28,9 @@
     />
 
   <node
-    pkg="frontier_exploration_turtlebot"
-    name="frontierExplorer"
-    type="frontierExplorer"
+    pkg="diffrential_turtlebot"
+    name="diffrentialTurtle"
+    type="diffrentialTurtle"
     output="screen"
     launch-prefix="gnome-terminal --command"
     />

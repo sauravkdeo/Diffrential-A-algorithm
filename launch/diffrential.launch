@@ -7,9 +7,9 @@
   <arg name="z_pos" default="0.0"/>
   
   <node
-    pkg="frontier_exploration_turtlebot"
-    name="frontierExplorer"
-    type="frontierExplorer"
+    pkg="diffrential_turtlebot"
+    name="diffrentialTurtle"
+    type="diffrentailTurtle"
     output="screen"
     launch-prefix="gnome-terminal --command"
     />
