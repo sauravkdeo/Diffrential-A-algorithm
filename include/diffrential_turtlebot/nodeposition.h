@@ -36,8 +36,8 @@
  *OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_COORD_H_
-#define INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_COORD_H_
+#ifndef INCLUDE_DIFFRENTIAL_TURTLEBOT_NODEPOSITION_H_
+#define INCLUDE_DIFFRENTIAL_TURTLEBOT_NODEPOSITION_H_
 #include<iostream>
 
 
@@ -48,7 +48,7 @@
  *                             get_y
  *                             set_y
  */
-class Coord {
+class Nodeposition {
  private:
   int
   X,
@@ -57,9 +57,9 @@ class Coord {
 
  public:
   /** constructor*
-      Point();
+Point();
    * destructor*
-      ~Point();
+~Point();
    */
   /**
    * @brief   get_x
@@ -92,5 +92,14 @@ class Coord {
    * @return  void
    */
   void set_y(int);
+  int get_theeta();
+
+  /**
+   * @brief   set_y
+   * @details set the new value of Y Coordinate in "Y" datamember
+   * @param   double
+   * @return  void
+   */
+  void set_theeta(int);
 };
-#endif  // INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_COORD_H_"
+#endif  // INCLUDE_DIFFRENTIAL_TURTLEBOT_NODEPOSITION_H_

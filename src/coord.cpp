@@ -36,7 +36,7 @@
   *OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   */
 #include <math.h>
-#include <../include/frontier_exploration_turtlebot/coord.h>
+#include <../include/diffrential_turtlebot/coord.h>
 #include <algorithm>
 #include <iostream>
 /** constructor**/

@@ -33,7 +33,7 @@
 #include <ros/ros.h>
 #include <sensor_msgs/LaserScan.h>
 #include <geometry_msgs/Twist.h>
-#include <frontier_exploration_turtlebot/PathPlanning.h>
+#include <../include/diffrential_turtlebot/PathPlanning.h>
 
 PathPlanning::PathPlanning() {
   ros::Rate loop_rate(1);

@@ -8,8 +8,8 @@
   
   <node
     pkg="diffrential_turtlebot"
-    name="diffrentialTurtle"
-    type="diffrentailTurtle"
+    name="diffTurtle"
+    type="diffTurtle"
     output="screen"
     launch-prefix="gnome-terminal --command"
     />

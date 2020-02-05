@@ -34,13 +34,13 @@
  *OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#ifndef _HOME_SAURAV_WORKSPACE_SRC_PROJ3_SAURAV_KUMAR_CPP_INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_NODE_H_
-#define _HOME_SAURAV_WORKSPACE_SRC_PROJ3_SAURAV_KUMAR_CPP_INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_NODE_H_
+#ifndef INCLUDE_DIFFRENTIAL_TURTLEBOT_NODE_H_
+#define INCLUDE_DIFFRENTIAL_TURTLEBOT_NODE_H_
 
 #include <ros/ros.h>
-#include <frontier_exploration_turtlebot/PathPlanning.h>
-#include <../include/frontier_exploration_turtlebot/map.h>
-#include <../include/frontier_exploration_turtlebot/nodeposition.h>
+#include <../include/diffrential_turtlebot/PathPlanning.h>
+#include <../include/diffrential_turtlebot/map.h>
+#include <../include/diffrential_turtlebot/nodeposition.h>
 #include <map>
 #include <utility>
 #include <algorithm>
@@ -105,5 +105,5 @@ class Node {
   std::string to_string(double);
   void set_turtlebot_ingazebo(int, int);
 };
-#endif  // _HOME_SAURAV_WORKSPACE_SRC_PROJ3_SAURAV_KUMAR_CPP_INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_NODE_H_
+#endif  // INCLUDE_DIFFRENTIAL_TURTLEBOT_NODE_H_
 

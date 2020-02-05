@@ -34,9 +34,9 @@
  *OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#ifndef INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_MAP_H_
-#define INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_MAP_H_
-#include <../include/frontier_exploration_turtlebot/coord.h>
+#ifndef INCLUDE_DIFFRENTIAL_TURTLEBOT_MAP_H_
+#define INCLUDE_DIFFRENTIAL_TURTLEBOT_MAP_H_
+#include <../include/diffrential_turtlebot/coord.h>
 #include <opencv2/core/core.hpp>
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui/highgui.hpp>
@@ -109,4 +109,4 @@ class Map {
   void destroy();
 };
 
-#endif  // INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_MAP_H_
+#endif  // INCLUDE_DIFFRENTIAL_TURTLEBOT_MAP_H_

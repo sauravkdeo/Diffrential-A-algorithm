@@ -31,10 +31,11 @@
  */
 
 #include <ros/ros.h>
-#include <frontier_exploration_turtlebot/PathPlanning.h>
-#include <../include/frontier_exploration_turtlebot/map.h>
-#include <../include/frontier_exploration_turtlebot/nodeposition.h>
-#include <../include/frontier_exploration_turtlebot/node.h>
+#include <../include/diffrential_turtlebot/PathPlanning.h>
+#include <../include/diffrential_turtlebot/map.h>
+#include <../include/diffrential_turtlebot/nodeposition.h>
+#include <../include/diffrential_turtlebot/node.h>
+#include <../include/diffrential_turtlebot/coord.h>
 #include <map>
 #include <utility>
 #include <algorithm>

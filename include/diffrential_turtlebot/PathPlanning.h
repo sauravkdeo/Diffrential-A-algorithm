@@ -31,8 +31,8 @@
  *                Declares functions to publish spiral trajectories
  */
 
-#ifndef INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_PATHPLANNING_H_
-#define INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_PATHPLANNING_H_
+#ifndef INCLUDE_DIFFRENTIAL_TURTLEBOT_PATHPLANNING_H_
+#define INCLUDE_DIFFRENTIAL_TURTLEBOT_PATHPLANNING_H_
 
 #include <ros/ros.h>
 #include <geometry_msgs/Twist.h>
@@ -90,4 +90,4 @@ class PathPlanning {
   float getlinearspeed();
 };
 
-#endif  // INCLUDE_FRONTIER_EXPLORATION_TURTLEBOT_PATHPLANNING_H_
+#endif  // INCLUDE_DIFFRENTIAL_TURTLEBOT_PATHPLANNING_H_

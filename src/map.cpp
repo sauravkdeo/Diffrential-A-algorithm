@@ -41,7 +41,7 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui/highgui.hpp>
-#include <../include/frontier_exploration_turtlebot/map.h>
+#include <../include/diffrential_turtlebot/map.h>
 #include <math.h>
 #include <algorithm>
 #include <iostream>

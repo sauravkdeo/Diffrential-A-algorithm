@@ -31,7 +31,7 @@
  */
 
 #include <ros/ros.h>
-#include <../include/frontier_exploration_turtlebot/node.h>
+#include <../include/diffrential_turtlebot/node.h>
 #include <map>
 #include <utility>
 #include <algorithm>
